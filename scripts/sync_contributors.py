@@ -14,16 +14,6 @@ import sys
 from pathlib import Path
 
 
-ORG = "newton-physics"
-MAINTAINERS_TEAM = "maintainers"
-TSC_TEAM = "newton-tsc"
-CONTRIBUTORS_PATH = Path("CONTRIBUTORS.md")
-
-TSC_SUFFIXES = {
-    "momo-van": " - co-chair",
-    "vastsoun": " - co-chair",
-}
-
 TSC_NAME_OVERRIDES = {
     "Aeoliane": "Louis Lian",
     "frankchenlw": "Frank Chen",
